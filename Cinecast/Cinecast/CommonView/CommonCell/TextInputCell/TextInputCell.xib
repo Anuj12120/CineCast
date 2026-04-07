@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="24506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="123" id="KGk-i7-Jjw" customClass="TextInputCell" customModule="Cinecast" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="123"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="123"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pqX-rb-Jy2">
+                        <rect key="frame" x="20" y="8" width="280" height="45"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WVA-na-BS3">
+                        <rect key="frame" x="20" y="61" width="280" height="54"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mail" translatesAutoresizingMaskIntoConstraints="NO" id="AKg-MJ-R32">
+                                <rect key="frame" x="12" y="15" width="24" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="Hqi-II-kyX"/>
+                                    <constraint firstAttribute="width" constant="24" id="UAu-nm-fU0"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cnt-VY-xbc">
+                                <rect key="frame" x="244" y="13" width="24" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="2vU-OB-zdH"/>
+                                    <constraint firstAttribute="width" constant="24" id="9lq-8q-gV7"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="hidePass"/>
+                                <connections>
+                                    <action selector="clickPassShowHideBtn:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="GqC-Dn-cTm"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="F6m-jd-tM0">
+                                <rect key="frame" x="46" y="8" width="188" height="38"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="cnt-VY-xbc" firstAttribute="leading" secondItem="F6m-jd-tM0" secondAttribute="trailing" constant="10" id="0lJ-2n-yIG"/>
+                            <constraint firstItem="AKg-MJ-R32" firstAttribute="leading" secondItem="WVA-na-BS3" secondAttribute="leading" constant="12" id="2Vw-HE-BAG"/>
+                            <constraint firstItem="F6m-jd-tM0" firstAttribute="top" secondItem="WVA-na-BS3" secondAttribute="top" constant="8" id="C5J-NV-i8S"/>
+                            <constraint firstItem="AKg-MJ-R32" firstAttribute="centerY" secondItem="WVA-na-BS3" secondAttribute="centerY" id="ELt-73-GOo"/>
+                            <constraint firstItem="cnt-VY-xbc" firstAttribute="centerY" secondItem="WVA-na-BS3" secondAttribute="centerY" id="Qyc-fh-6OM"/>
+                            <constraint firstAttribute="height" constant="54" id="SDW-Kx-nHb"/>
+                            <constraint firstAttribute="bottom" secondItem="F6m-jd-tM0" secondAttribute="bottom" constant="8" id="ePX-YN-CBL"/>
+                            <constraint firstAttribute="trailing" secondItem="cnt-VY-xbc" secondAttribute="trailing" constant="12" id="i6U-bB-G8L"/>
+                            <constraint firstItem="F6m-jd-tM0" firstAttribute="leading" secondItem="AKg-MJ-R32" secondAttribute="trailing" constant="10" id="wvp-sy-pb1"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="WVA-na-BS3" secondAttribute="trailing" constant="20" id="2xe-12-Kvs"/>
+                    <constraint firstAttribute="bottom" secondItem="WVA-na-BS3" secondAttribute="bottom" constant="8" id="4BA-yf-aJJ"/>
+                    <constraint firstItem="pqX-rb-Jy2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="D4u-C4-Fe3"/>
+                    <constraint firstAttribute="trailing" secondItem="pqX-rb-Jy2" secondAttribute="trailing" constant="20" id="OE5-ic-w3e"/>
+                    <constraint firstItem="pqX-rb-Jy2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="ja2-3M-sKH"/>
+                    <constraint firstItem="WVA-na-BS3" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="pIq-U8-Wos"/>
+                    <constraint firstItem="WVA-na-BS3" firstAttribute="top" secondItem="pqX-rb-Jy2" secondAttribute="bottom" constant="8" id="zbb-oY-ufB"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="btnPassShowHide" destination="cnt-VY-xbc" id="m1U-ik-aQb"/>
+                <outlet property="imgTitleIcon" destination="AKg-MJ-R32" id="zNo-OX-SK6"/>
+                <outlet property="lblTitke" destination="pqX-rb-Jy2" id="SUl-Ah-cD6"/>
+                <outlet property="vwTextInputBack" destination="WVA-na-BS3" id="3q3-4o-LRM"/>
+            </connections>
+            <point key="canvasLocation" x="138.93129770992365" y="182.04225352112678"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="hidePass" width="100" height="100"/>
+        <image name="mail" width="100" height="100"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

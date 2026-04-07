@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  Cinecast
 //
-//  Created by Anand Mahajan on 06/04/26.
+//  Created by Anand Mahajan on 07/04/26.
 //
 
 import UIKit
@@ -17,8 +17,18 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let _ = (scene as? UIWindowScene) else { return }
+        
+        self.loadLoginView()
     }
 
+    func loadLoginView(){
+        let objVC = LoginViewController(nibName: "LoginViewController", bundle: nil)
+        let navigation = UINavigationController(rootViewController: objVC)
+        window?.rootViewController = navigation
+        window?.makeKeyAndVisible()
+    }
+    
+    
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.
         // This occurs shortly after the scene enters the background, or when its session is discarded.

@@ -7,53 +7,53 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		909127712F83DC010000B1FC /* PBXContainerItemProxy */ = {
+		901D4DD12F84FABC0028371C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9091274F2F83DBFF0000B1FC /* Project object */;
+			containerPortal = 901D4DAF2F84FABB0028371C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 909127562F83DBFF0000B1FC;
+			remoteGlobalIDString = 901D4DB62F84FABB0028371C;
 			remoteInfo = Cinecast;
 		};
-		9091277B2F83DC010000B1FC /* PBXContainerItemProxy */ = {
+		901D4DDB2F84FABC0028371C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9091274F2F83DBFF0000B1FC /* Project object */;
+			containerPortal = 901D4DAF2F84FABB0028371C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 909127562F83DBFF0000B1FC;
+			remoteGlobalIDString = 901D4DB62F84FABB0028371C;
 			remoteInfo = Cinecast;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		909127572F83DBFF0000B1FC /* Cinecast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cinecast.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		909127702F83DC010000B1FC /* CinecastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CinecastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9091277A2F83DC010000B1FC /* CinecastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CinecastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		901D4DB72F84FABB0028371C /* Cinecast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cinecast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		901D4DD02F84FABC0028371C /* CinecastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CinecastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		901D4DDA2F84FABC0028371C /* CinecastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CinecastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		909127822F83DC010000B1FC /* Exceptions for "Cinecast" folder in "Cinecast" target */ = {
+		901D4DE22F84FABC0028371C /* Exceptions for "Cinecast" folder in "Cinecast" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 909127562F83DBFF0000B1FC /* Cinecast */;
+			target = 901D4DB62F84FABB0028371C /* Cinecast */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		909127592F83DBFF0000B1FC /* Cinecast */ = {
+		901D4DB92F84FABB0028371C /* Cinecast */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				909127822F83DC010000B1FC /* Exceptions for "Cinecast" folder in "Cinecast" target */,
+				901D4DE22F84FABC0028371C /* Exceptions for "Cinecast" folder in "Cinecast" target */,
 			);
 			path = Cinecast;
 			sourceTree = "<group>";
 		};
-		909127732F83DC010000B1FC /* CinecastTests */ = {
+		901D4DD32F84FABC0028371C /* CinecastTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = CinecastTests;
 			sourceTree = "<group>";
 		};
-		9091277D2F83DC010000B1FC /* CinecastUITests */ = {
+		901D4DDD2F84FABC0028371C /* CinecastUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = CinecastUITests;
 			sourceTree = "<group>";
@@ -61,21 +61,21 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		909127542F83DBFF0000B1FC /* Frameworks */ = {
+		901D4DB42F84FABB0028371C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9091276D2F83DC010000B1FC /* Frameworks */ = {
+		901D4DCD2F84FABC0028371C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		909127772F83DC010000B1FC /* Frameworks */ = {
+		901D4DD72F84FABC0028371C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -85,22 +85,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9091274E2F83DBFF0000B1FC = {
+		901D4DAE2F84FABB0028371C = {
 			isa = PBXGroup;
 			children = (
-				909127592F83DBFF0000B1FC /* Cinecast */,
-				909127732F83DC010000B1FC /* CinecastTests */,
-				9091277D2F83DC010000B1FC /* CinecastUITests */,
-				909127582F83DBFF0000B1FC /* Products */,
+				901D4DB92F84FABB0028371C /* Cinecast */,
+				901D4DD32F84FABC0028371C /* CinecastTests */,
+				901D4DDD2F84FABC0028371C /* CinecastUITests */,
+				901D4DB82F84FABB0028371C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		909127582F83DBFF0000B1FC /* Products */ = {
+		901D4DB82F84FABB0028371C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				909127572F83DBFF0000B1FC /* Cinecast.app */,
-				909127702F83DC010000B1FC /* CinecastTests.xctest */,
-				9091277A2F83DC010000B1FC /* CinecastUITests.xctest */,
+				901D4DB72F84FABB0028371C /* Cinecast.app */,
+				901D4DD02F84FABC0028371C /* CinecastTests.xctest */,
+				901D4DDA2F84FABC0028371C /* CinecastUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,134 +108,136 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		909127562F83DBFF0000B1FC /* Cinecast */ = {
+		901D4DB62F84FABB0028371C /* Cinecast */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 909127832F83DC010000B1FC /* Build configuration list for PBXNativeTarget "Cinecast" */;
+			buildConfigurationList = 901D4DE32F84FABC0028371C /* Build configuration list for PBXNativeTarget "Cinecast" */;
 			buildPhases = (
-				909127532F83DBFF0000B1FC /* Sources */,
-				909127542F83DBFF0000B1FC /* Frameworks */,
-				909127552F83DBFF0000B1FC /* Resources */,
+				901D4DB32F84FABB0028371C /* Sources */,
+				901D4DB42F84FABB0028371C /* Frameworks */,
+				901D4DB52F84FABB0028371C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				909127592F83DBFF0000B1FC /* Cinecast */,
+				901D4DB92F84FABB0028371C /* Cinecast */,
 			);
 			name = Cinecast;
 			packageProductDependencies = (
 			);
 			productName = Cinecast;
-			productReference = 909127572F83DBFF0000B1FC /* Cinecast.app */;
+			productReference = 901D4DB72F84FABB0028371C /* Cinecast.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9091276F2F83DC010000B1FC /* CinecastTests */ = {
+		901D4DCF2F84FABC0028371C /* CinecastTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 909127882F83DC010000B1FC /* Build configuration list for PBXNativeTarget "CinecastTests" */;
+			buildConfigurationList = 901D4DE82F84FABC0028371C /* Build configuration list for PBXNativeTarget "CinecastTests" */;
 			buildPhases = (
-				9091276C2F83DC010000B1FC /* Sources */,
-				9091276D2F83DC010000B1FC /* Frameworks */,
-				9091276E2F83DC010000B1FC /* Resources */,
+				901D4DCC2F84FABC0028371C /* Sources */,
+				901D4DCD2F84FABC0028371C /* Frameworks */,
+				901D4DCE2F84FABC0028371C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				909127722F83DC010000B1FC /* PBXTargetDependency */,
+				901D4DD22F84FABC0028371C /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				909127732F83DC010000B1FC /* CinecastTests */,
+				901D4DD32F84FABC0028371C /* CinecastTests */,
 			);
 			name = CinecastTests;
 			packageProductDependencies = (
 			);
 			productName = CinecastTests;
-			productReference = 909127702F83DC010000B1FC /* CinecastTests.xctest */;
+			productReference = 901D4DD02F84FABC0028371C /* CinecastTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		909127792F83DC010000B1FC /* CinecastUITests */ = {
+		901D4DD92F84FABC0028371C /* CinecastUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9091278B2F83DC010000B1FC /* Build configuration list for PBXNativeTarget "CinecastUITests" */;
+			buildConfigurationList = 901D4DEB2F84FABC0028371C /* Build configuration list for PBXNativeTarget "CinecastUITests" */;
 			buildPhases = (
-				909127762F83DC010000B1FC /* Sources */,
-				909127772F83DC010000B1FC /* Frameworks */,
-				909127782F83DC010000B1FC /* Resources */,
+				901D4DD62F84FABC0028371C /* Sources */,
+				901D4DD72F84FABC0028371C /* Frameworks */,
+				901D4DD82F84FABC0028371C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9091277C2F83DC010000B1FC /* PBXTargetDependency */,
+				901D4DDC2F84FABC0028371C /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				9091277D2F83DC010000B1FC /* CinecastUITests */,
+				901D4DDD2F84FABC0028371C /* CinecastUITests */,
 			);
 			name = CinecastUITests;
 			packageProductDependencies = (
 			);
 			productName = CinecastUITests;
-			productReference = 9091277A2F83DC010000B1FC /* CinecastUITests.xctest */;
+			productReference = 901D4DDA2F84FABC0028371C /* CinecastUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9091274F2F83DBFF0000B1FC /* Project object */ = {
+		901D4DAF2F84FABB0028371C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2620;
 				LastUpgradeCheck = 2620;
 				TargetAttributes = {
-					909127562F83DBFF0000B1FC = {
+					901D4DB62F84FABB0028371C = {
 						CreatedOnToolsVersion = 26.2;
 					};
-					9091276F2F83DC010000B1FC = {
+					901D4DCF2F84FABC0028371C = {
 						CreatedOnToolsVersion = 26.2;
-						TestTargetID = 909127562F83DBFF0000B1FC;
+						TestTargetID = 901D4DB62F84FABB0028371C;
 					};
-					909127792F83DC010000B1FC = {
+					901D4DD92F84FABC0028371C = {
 						CreatedOnToolsVersion = 26.2;
-						TestTargetID = 909127562F83DBFF0000B1FC;
+						TestTargetID = 901D4DB62F84FABB0028371C;
 					};
 				};
 			};
-			buildConfigurationList = 909127522F83DBFF0000B1FC /* Build configuration list for PBXProject "Cinecast" */;
+			buildConfigurationList = 901D4DB22F84FABB0028371C /* Build configuration list for PBXProject "Cinecast" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				hi,
+				"en-IN",
 			);
-			mainGroup = 9091274E2F83DBFF0000B1FC;
+			mainGroup = 901D4DAE2F84FABB0028371C;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 909127582F83DBFF0000B1FC /* Products */;
+			productRefGroup = 901D4DB82F84FABB0028371C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				909127562F83DBFF0000B1FC /* Cinecast */,
-				9091276F2F83DC010000B1FC /* CinecastTests */,
-				909127792F83DC010000B1FC /* CinecastUITests */,
+				901D4DB62F84FABB0028371C /* Cinecast */,
+				901D4DCF2F84FABC0028371C /* CinecastTests */,
+				901D4DD92F84FABC0028371C /* CinecastUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		909127552F83DBFF0000B1FC /* Resources */ = {
+		901D4DB52F84FABB0028371C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9091276E2F83DC010000B1FC /* Resources */ = {
+		901D4DCE2F84FABC0028371C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		909127782F83DC010000B1FC /* Resources */ = {
+		901D4DD82F84FABC0028371C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -245,21 +247,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		909127532F83DBFF0000B1FC /* Sources */ = {
+		901D4DB32F84FABB0028371C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9091276C2F83DC010000B1FC /* Sources */ = {
+		901D4DCC2F84FABC0028371C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		909127762F83DC010000B1FC /* Sources */ = {
+		901D4DD62F84FABC0028371C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -269,20 +271,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		909127722F83DC010000B1FC /* PBXTargetDependency */ = {
+		901D4DD22F84FABC0028371C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 909127562F83DBFF0000B1FC /* Cinecast */;
-			targetProxy = 909127712F83DC010000B1FC /* PBXContainerItemProxy */;
+			target = 901D4DB62F84FABB0028371C /* Cinecast */;
+			targetProxy = 901D4DD12F84FABC0028371C /* PBXContainerItemProxy */;
 		};
-		9091277C2F83DC010000B1FC /* PBXTargetDependency */ = {
+		901D4DDC2F84FABC0028371C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 909127562F83DBFF0000B1FC /* Cinecast */;
-			targetProxy = 9091277B2F83DC010000B1FC /* PBXContainerItemProxy */;
+			target = 901D4DB62F84FABB0028371C /* Cinecast */;
+			targetProxy = 901D4DDB2F84FABC0028371C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		909127842F83DC010000B1FC /* Debug */ = {
+		901D4DE42F84FABC0028371C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -313,7 +315,7 @@
 			};
 			name = Debug;
 		};
-		909127852F83DC010000B1FC /* Release */ = {
+		901D4DE52F84FABC0028371C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -344,11 +346,12 @@
 			};
 			name = Release;
 		};
-		909127862F83DC010000B1FC /* Debug */ = {
+		901D4DE62F84FABC0028371C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -407,11 +410,12 @@
 			};
 			name = Debug;
 		};
-		909127872F83DC010000B1FC /* Release */ = {
+		901D4DE72F84FABC0028371C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -463,7 +467,7 @@
 			};
 			name = Release;
 		};
-		909127892F83DC010000B1FC /* Debug */ = {
+		901D4DE92F84FABC0028371C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,7 +488,7 @@
 			};
 			name = Debug;
 		};
-		9091278A2F83DC010000B1FC /* Release */ = {
+		901D4DEA2F84FABC0028371C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,7 +509,7 @@
 			};
 			name = Release;
 		};
-		9091278C2F83DC010000B1FC /* Debug */ = {
+		901D4DEC2F84FABC0028371C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -524,7 +528,7 @@
 			};
 			name = Debug;
 		};
-		9091278D2F83DC010000B1FC /* Release */ = {
+		901D4DED2F84FABC0028371C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -546,43 +550,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		909127522F83DBFF0000B1FC /* Build configuration list for PBXProject "Cinecast" */ = {
+		901D4DB22F84FABB0028371C /* Build configuration list for PBXProject "Cinecast" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				909127862F83DC010000B1FC /* Debug */,
-				909127872F83DC010000B1FC /* Release */,
+				901D4DE62F84FABC0028371C /* Debug */,
+				901D4DE72F84FABC0028371C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		909127832F83DC010000B1FC /* Build configuration list for PBXNativeTarget "Cinecast" */ = {
+		901D4DE32F84FABC0028371C /* Build configuration list for PBXNativeTarget "Cinecast" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				909127842F83DC010000B1FC /* Debug */,
-				909127852F83DC010000B1FC /* Release */,
+				901D4DE42F84FABC0028371C /* Debug */,
+				901D4DE52F84FABC0028371C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		909127882F83DC010000B1FC /* Build configuration list for PBXNativeTarget "CinecastTests" */ = {
+		901D4DE82F84FABC0028371C /* Build configuration list for PBXNativeTarget "CinecastTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				909127892F83DC010000B1FC /* Debug */,
-				9091278A2F83DC010000B1FC /* Release */,
+				901D4DE92F84FABC0028371C /* Debug */,
+				901D4DEA2F84FABC0028371C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9091278B2F83DC010000B1FC /* Build configuration list for PBXNativeTarget "CinecastUITests" */ = {
+		901D4DEB2F84FABC0028371C /* Build configuration list for PBXNativeTarget "CinecastUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9091278C2F83DC010000B1FC /* Debug */,
-				9091278D2F83DC010000B1FC /* Release */,
+				901D4DEC2F84FABC0028371C /* Debug */,
+				901D4DED2F84FABC0028371C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9091274F2F83DBFF0000B1FC /* Project object */;
+	rootObject = 901D4DAF2F84FABB0028371C /* Project object */;
 }
